@@ -1,0 +1,30 @@
+.Outter{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+#eye,#eye2{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#eye2{
+    top: 0;
+    left: 150px;
+}
+.mouth{
+    height: 75px;
+    width: 200px;
+    background-color: red;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 150px;
+    
+    
+
+}

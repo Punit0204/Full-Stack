@@ -1,0 +1,76 @@
+*{
+    font-family:'Franklin Gothic Medium';
+}
+h1{
+    color:rgb(125, 1, 1);
+}
+#login{
+    background-color: rgb(228, 29, 29);
+    color:white;
+}
+#signup{
+    color:white;
+    background-color: rgb(11, 115, 184);
+}
+h3{
+    color:purple;
+}
+.upvote{
+    background-color: rgb(1, 107, 72);
+    color:white;
+}
+/* sibling Combinator */
+.upvote + button{
+    background-color: rgb(185, 185, 77);
+    color: black;
+}
+
+/* Descendent Selectors */
+.profile a{
+    color:rgb(47, 143, 146);
+}
+nav ul li a{
+    color:rgb(165, 103, 27);
+}
+/* sibling Combinator */
+p+h3{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+/* child Combinator */
+div > input{
+     background-color: blanchedalmond;
+     color:black;
+}
+/* attribute Selector */
+input[type="text"]{
+    color:red;
+}
+input[type="password"]{
+    color:green;
+}
+/* Psuedo class */
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: coral;
+}
+p:active{
+    font-weight: bold;
+    color:rgb(76, 147, 4);
+}
+input[type=radio]:checked + label{
+    font-weight: bold;
+    color:red;
+}
+.profile:nth-of-type(2){
+    background-color: blanchedalmond;
+}
+/* psuedo element */
+h1::first-letter{
+    color:red;
+}
+p::selection{
+    background-color: yellow;
+}

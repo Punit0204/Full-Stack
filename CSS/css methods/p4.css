@@ -1,0 +1,12 @@
+div {
+    height: 100px;
+    width: 200px;
+background-color:  rgba(21, 21, 149,0.3);
+color:black;
+}
+#opac {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255,0,255);
+    opacity: 0.66;
+}

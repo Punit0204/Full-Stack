@@ -1,0 +1,80 @@
+/* 
+div{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    margin: 0 auto;   
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s; 
+}*/
+/* syntax: transtition: property|duration|timing-function|delay 
+div:hover{
+   margin-top:200px;
+   background-color: aqua;
+} 
+*/
+/* transform properties
+rotate, skew, scale, translate */
+/* 
+section{
+    margin-top:100px;
+}
+div{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(166, 107, 17);
+    border: 2px solid black;
+    margin:10px auto;
+    
+}
+div:nth-of-type(2n){
+    background-color: rgb(34, 197, 9);
+}
+div:nth-of-type(3n){
+    background-color: rgb(68, 13, 198);
+} */
+
+/* transform */
+/* #one{
+    transform: rotate(45deg);
+}
+#two{
+    transform:scale(0.5,2);
+}
+#three{
+    transform: translate(100px,100px);
+    transform: translatex(-100px)
+}
+#four{
+    transform:skew(-30deg)
+}
+#five{
+    transform: rotate(45deg) translate(50px) scale(0.5) skew(45deg);
+} */
+
+/* div{
+    height: 50px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color:brown;
+    text-align: center;
+}
+#one{
+    box-shadow: 4px 4px 6px rgb(0, 0, 0);
+} */
+
+div{
+    height: 500px;
+    width: 1000px;
+    background-color: bisque;
+    margin: 10px auto;
+    background-image: url(walll.jpg);
+    /* background-size: contain|cover|auto; */
+    background-size:cover;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-weight: 900;
+}
